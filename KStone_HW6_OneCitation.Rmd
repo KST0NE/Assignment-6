@@ -23,7 +23,7 @@ csl: "ecology.csl"
 \fancyfoot[C]{\thepage}
 
 
-```{r, echo = FALSE}
+```{r, include = FALSE}
 library("knitcitations")
 cleanbib()
 options("citation_format" = "pandoc")
